@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First server page</title>
+    <style>
+        .main{
+            background-color: rgba(255, 115, 0, 0.351);
+            width: 1000px;
+            height:540px;
+        }
+        #rr1{
+            font-size: 40px;
+            font-family: 'Dancing Script', cursive;
+        }
+        .r1{
+            color:brown;
+            background-color:blanchedalmond;
+            text-align: center;
+        }
+        .r2{
+            text-align:center;
+            width:200px;
+            height:40px;
+            color:rgb(10, 240, 56);
+            background-color: rgb(126, 220, 246);
+            float:left;
+        }
+        .r3{
+            height:200px;
+            width:350px;
+            float:left;
+        }
+        .r3-1{
+            border-style: solid;
+            border-width: 1px;
+            border-color:whitesmoke;
+            text-align:center;
+            width:350px;
+            height:40px;
+            color:black;
+            background-color:chartreuse;
+            float:left;
+        }
+        .r3-2{
+            text-align:center;
+            height:"200px";
+            width:"650px";
+            background-color:blueviolet;
+        }
+        .r4{
+           
+            height:100px;
+            background-color:blanchedalmond;
+            text-align:center;
+        }
+        .r5-1{
+            border-style: solid;
+            border-width: 1.28px;
+            border-color:rgb(29, 28, 28);
+            height:100px;
+            background-color:rgb(216, 136, 16);
+            align-content: center; 
+            float:left;  
+        }
+        .r6{   
+            height:20px;
+            background-color:rgb(16, 216, 159);
+            align-content: center; 
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <div class="main"><!--Main div-->
+        <div class="r1"><!--parent-row-1-->
+            <span id="rr1">Welcome to Web Development World</span>
+        </div>
+        <div><!--parent-row-2-->
+            <div class="r2"><a href="#">Home</a></div>
+            <div class="r2"><a href="#">About</a></div>
+            <div class="r2"><a href="#">Course</a></div>
+            <div class="r2"><a href="#">Gallery</a></div>
+            <div class="r2"><a href="#">Contact</a></div>
+        </div>
+        <div><!--parent-row-3-->
+            <div class="r3"><!--column-1-->
+                <div class="r3-1"><a href="#">Home</a></div>
+                <div class="r3-1"><a href="#">About</a></div>
+                <div class="r3-1"><a href="#">Course</a></div>
+                <div class="r3-1"><a href="#">Gallery</a></div>
+                <div class="r3-1"><a href="#">Contact</a></div>
+            </div>
+            <div class="r3-2"><!--column-1-->
+                <img src="./img.png" title="background" height="200px" width="650px" alt="IMAGE IS NOT UPLOADED yet" >
+            </div>
+        </div>
+        <div class="r4"><!--parent-row-4-->
+            <img src="./ourclients.jpg"  height="100px" width="998px" title="Our Clients"  alt="clients Image" >
+        </div>
+        <div class="r5" ><!--parent-row-5-->
+            <div class="r5-1">
+                <img src="./company1.png" width="330.99px"   height="100px" title="Company1"  alt="Company Icon" >
+            </div>
+            <div class="r5-1"> 
+                <img src="./company2.png" width="330.99px"   height="100px" title="Company2"  alt="Company Icon" >
+            </div>
+            <div class="r5-1">
+                 <img src="./company3.png" width="330.99px"   height="100px" title="Company3"  alt="Company Icon" >
+            </div>
+        </div>
+        <div class=".r6"><!--parent-row-6-->
+            <a href="#" target="_blank">Home</a>|
+            <a href="#" target="_blank">About</a>|
+            <a href="#" target="_blank">Course</a>|
+            <a href="#" target="_blank">Gallery</a>|
+            <a href="#" target="_blank">Contact us</a>
+        </div> 
+    </center>
+</body>
+</html>
